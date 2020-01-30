@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import '../styles/Sidebar.css';
 import '../styles/styles.css';
 import Image from '../img/iansarker.jpg';
+import Menu from './Menu';
 
 
 export default class Sidebar extends Component {
@@ -22,6 +23,8 @@ export default class Sidebar extends Component {
                         <span>{info.email}</span>
                     </div>
                 </div>
+
+                <Menu />
             </div>
         );
     }
