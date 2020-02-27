@@ -5,9 +5,7 @@
 }
 
 .App {
-  width: 100%;
-  padding: 100px;
+  padding: 40px;
   background-color: #EEEEEC;
   box-sizing: border-box;
-  overflow: hidden;
 }
