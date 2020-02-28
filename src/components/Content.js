@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 import About from './About';
 import Publications from './Publications';
 import Interest from './Interest';
-import '../styles/Content.css';
 import Skills from './Skills';
+import '../styles/Content.css';
 
 
 export default class Content extends Component {
@@ -14,8 +14,8 @@ export default class Content extends Component {
             <div className="content">
 				<About about={content.about} />
                 <Publications publications={content.publications}/>
-                <Interest interests={content.interests}/>
                 <Skills skills={content.skills} />
+                <Interest interests={content.interests}/>
             </div>
         );
     }
