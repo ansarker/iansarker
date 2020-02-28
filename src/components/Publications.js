@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/Publicaions.css';
 import '../styles/styles.css';
 
-class Publicaions extends React.Component {
+class Publications extends React.Component {
     render() {
         const publications = this.props.publications;
 
@@ -26,4 +26,4 @@ class Publicaions extends React.Component {
     }
 }
 
-export default Publicaions;
+export default Publications;

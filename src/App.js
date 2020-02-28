@@ -35,6 +35,18 @@ class App extends React.Component {
 					{id: 3, name: 'Artificial Intelligence'},
 					{id: 4, name: 'Psychology'},
 					{id: 5, name: 'Philosophy'},
+				],
+				skills: [
+					{id: 1, type: 'Programming', name: 'Python, MATLAB'},
+					{id: 2, type: 'Programming', name: 'Java, C/ C++'},
+					{id: 3, type: 'Web & Mobile App Development', name: 'JavaScript, Android'},
+					{id: 4, type: 'Web & Mobile App Development', name: 'ReactJS/ React Native'},
+					{id: 5, type: 'Web & Mobile App Development', name: 'NodeJS'},
+					{id: 6, type: 'Framework/Libraries', name: 'Tensorflow, PyTorch, Keras'},
+					{id: 7, type: 'Framework/Libraries', name: 'Numpy, Matplotlib, Seaborn, OpenCV, Scipy, Scikit-learn, Pillow, Pandas'},
+					{id: 8, type: 'Others', name: 'Linux Shell Script'},
+					{id: 9, type: 'Others', name: 'SSH'},
+					{id: 10, type: 'Others', name: 'LaTex'}
 				]
 			}
 

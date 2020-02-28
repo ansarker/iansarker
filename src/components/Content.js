@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 
 import About from './About';
-import Publicaions from './Publicaions';
+import Publications from './Publications';
 import Interest from './Interest';
 import '../styles/Content.css';
+import Skills from './Skills';
 
 
 export default class Content extends Component {
@@ -12,8 +13,9 @@ export default class Content extends Component {
         return(
             <div className="content">
 				<About about={content.about} />
-                <Publicaions publications={content.publications}/>
+                <Publications publications={content.publications}/>
                 <Interest interests={content.interests}/>
+                <Skills skills={content.skills} />
             </div>
         );
     }

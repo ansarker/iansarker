@@ -14,21 +14,23 @@ body, html {
   -webkit-filter: blur(3px);
   filter: blur(3px);
   height: 100%; 
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #root {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  z-index: 999;
   width: 60%;
   text-align: center;
   background: #EEEEEC;
-  transform: translate(-50%, -50%);
-  /* padding: 40px; */
+  margin: 140px auto;
+  clear: both;
 }
 
 code {
