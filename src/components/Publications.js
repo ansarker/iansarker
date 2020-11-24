@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../styles/Publicaions.css';
 import '../styles/styles.css';
 
 class Publications extends React.Component {

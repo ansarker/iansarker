@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-import '../styles/Menu.css';
 import '../styles/styles.css';
 
 library.add(faGithub, faLinkedin);

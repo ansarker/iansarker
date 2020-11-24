@@ -4,7 +4,6 @@ import About from './About';
 import Publications from './Publications';
 import Interest from './Interest';
 import Skills from './Skills';
-import '../styles/Content.css';
 
 
 export default class Content extends Component {
