@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/styles.css';
-
 class Publications extends React.Component {
     render() {
         const publications = this.props.publications;

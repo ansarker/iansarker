@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/styles.css';
-
 class Skills extends React.Component {
     render() {
         const skills = this.props.skills;

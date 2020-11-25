@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-import '../styles/styles.css';
 import Image from '../img/iansarker.jpg';
 import Menu from './Menu';
 
