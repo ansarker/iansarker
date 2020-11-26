@@ -1,25 +1,28 @@
-import React from 'react';
+import React from "react";
 
-class Publicaions extends React.Component {
-    render() {
-        const interests = this.props.interests;
-        const interestList = interests.map(interest => {
-            return(
-                <li className="item-name" key={interest.id}>{interest.name}</li>
-            );
-        })
+export default function Interest() {
+  const interests = [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
+    "Psychology",
+    "Philosophy",
+  ];
 
-        return(
-            <div className="component">
-                <h1 className="header-title strong">Interests</h1>
-                <div className="publications-list">
-                    <ul className="list-style-view">
-                        {interestList}
-                    </ul>
-                </div>
-            </div>
-        );
-    }
+  const interestList = interests.map((it, key) => {
+    return (
+      <li className="list-group-item spacing_ sml_" key={key}>
+        {it}
+      </li>
+    );
+  });
+
+  return (
+    <div className="section_">
+      <h2 className="header_">Interests</h2>
+      <div className="pl-4 pr-4">
+        <ul className="list-group">{interestList}</ul>
+      </div>
+    </div>
+  );
 }
-
-export default Publicaions;

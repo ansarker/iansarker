@@ -1,16 +1,19 @@
-import React from 'react';
+import React from "react";
 
-class About extends React.Component {
-    render() {
-        return(
-            <div className="component">
-                <h1 className="header-title strong">About</h1>
-                <div className="aboutme">
-                    <p>{this.props.about}</p>
-                </div>
-            </div>
-        );
-    }
+export default function About() {
+  return (
+    <div className="section_">
+      <h2 className="header_">About</h2>
+      <div className="pl-4 pr-4">
+        <p className="cst_font_1_">
+          I am a Research Assistant at AGenCy Lab @IUB. I received my Bachelor
+          of Science degree in Computer Science at Independent University,
+          Bangladesh(IUB). I have a very broad research interest in Machine
+          Learning and Computer Vision. My current research involves in land use
+          land cover segmentation using high spatial resolution satellite
+          images.
+        </p>
+      </div>
+    </div>
+  );
 }
-
-export default About;
