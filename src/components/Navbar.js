@@ -13,7 +13,7 @@ export default function Navbar() {
               <a className="nav-link" href="/iansarker">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/iansarker/portfolio">Portfolio</a>
+              <a className="nav-link" href="/portfolio">Portfolio</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Random</a>
