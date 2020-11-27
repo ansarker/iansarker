@@ -5,7 +5,7 @@ import './dist/styles/styles.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
 
 
 class App extends React.Component {
@@ -17,7 +17,7 @@ class App extends React.Component {
 					<Navbar />
 					<div className="container">					
 						<Route path="/iansarker" exact component={Home} />
-						<Route path="/portfolio" component={Portfolio} />
+						{/* <Route path="/ianportfolio" component={Portfolio} /> */}
 					</div>
 				</div>
 			</Router>
