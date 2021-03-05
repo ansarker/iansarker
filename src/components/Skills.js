@@ -42,7 +42,7 @@ export default function Skills() {
   const ListItems = (props) => {
     return props.item.map((it, key) => {
       return (
-        <li className="mc-1 ml-0 btn btn-info spacing_ sml_" key={key}>
+        <li className="mc-1 ml-0 btn btn-info" key={key}>
           {it}
         </li>
       );
@@ -53,15 +53,15 @@ export default function Skills() {
     return (
       <div className="card" key={id}>
         <div className="card-header card_header_" id={"heading" + id}>
-          <h3
-            className="btn btn-link collapsed"
+          <h2
+            className="btn btn-link collapsed accordion_text_header"
             data-toggle="collapse"
             data-target={"#collapse" + id}
             aria-expanded="false"
             aria-controls={"collapse" + id}
           >
             {val.title}
-          </h3>
+          </h2>
         </div>
         <div
           id={"collapse" + id}
@@ -81,8 +81,10 @@ export default function Skills() {
 
   return (
     <div className="section_">
-      <h2 className="header_">Skills</h2>
-      <div className="pl-4 pr-4">
+      <header className="post-header_">
+        <h2 className="post-title">Skills</h2>
+      </header>
+      <div className="post-body">
         <div id="accordion">{skills}</div>
       </div>
     </div>

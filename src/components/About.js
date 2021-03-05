@@ -3,16 +3,24 @@ import React from "react";
 export default function About() {
   return (
     <div className="section_">
-      <h2 className="header_">About</h2>
-      <div className="pl-4 pr-4">
-        <p className="cst_font_1_">
-          I am a Research Assistant at AGenCy Lab @IUB. I received my Bachelor
-          of Science degree in Computer Science at Independent University,
-          Bangladesh(IUB). I have a very broad research interest in Machine
-          Learning and Computer Vision. My current research involves in land use
-          land cover segmentation using high spatial resolution satellite
-          images.
-        </p>
+      <header className="post-header">
+        <h1 className="post-title">About Me</h1>
+      </header>
+      <div className="p-4">
+        <ul className="pad_4">
+          <li className="list-article">
+            Currently working as a Research Assistant at Artificial Intelligence
+            and Cybernetics Lab.
+          </li>
+          <li className="list-article">
+            Research interests are on Machine Learning, Deep learning and
+            Computer Vision.
+          </li>
+          <li className="list-article">
+            Received Bachelor of Science degree in Computer Science from
+            Independent University, Bangladesh (IUB).
+          </li>
+        </ul>
       </div>
     </div>
   );
