@@ -46,7 +46,7 @@ export default function Publications() {
           </li>
           <li className="publications_list_item">
             <a href="https://arxiv.org/abs/2008.10736" className="pre_">
-              A.B.S Nayeem, A Sarkar, A.A Ali, M.A. Amin, A.K.M M Rahman, "LULC
+              A.B.S Nayem, A Sarkar, A.A Ali, M.A. Amin, A.K.M M Rahman, "LULC
               Segmentation of RGB Satellite Image Using FCN-8"
             </a>
           </li>

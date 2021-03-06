@@ -42,7 +42,7 @@ export default function Skills() {
   const ListItems = (props) => {
     return props.item.map((it, key) => {
       return (
-        <li className="mc-1 ml-0 btn btn-info" key={key}>
+        <li className="mc-1 ml-0 btn btn-info_" key={key}>
           {it}
         </li>
       );

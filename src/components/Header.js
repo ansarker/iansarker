@@ -11,10 +11,7 @@ export default function Header() {
       </div> */}
       <div className="pt-4">
         <h1 className="mt-4 mb-2">
-          <a
-            href="/iansarker"
-            style={{ textDecoration: "none", color: "#FFFFFF" }}
-          >
+          <a href="/iansarker" className="heading_">
             Anis Sarker
           </a>
         </h1>

@@ -13,7 +13,7 @@ export default function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <FaBars className="navbar-toggler-icon" style={{ color: "#75d3d7" }} />
+        <FaBars className="navbar-toggler-icon" style={{ color: "#f3f1ea" }} />
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">

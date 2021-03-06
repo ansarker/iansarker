@@ -8,18 +8,39 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif; 
 **********************************************/
 
+/* Main Colors */
+/***
+#005867
+#ffb335
+#f3f1ea
+#2e383d
+#f34226
+***/
+
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans&family=Roboto&family=Source+Sans+Pro&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  /* color: #F15D22; */
   box-sizing: border-box;
 }
 .heading {
   width: 100%;
   text-align: center;
 }
+
+.heading_ {
+  font-family: "Lobster Two", cursive;
+  font-size: 3.25rem;
+  color: #f3f1ea;
+  text-decoration: none;
+}
+
+.heading_:hover {
+  color: #f3f1ea;
+  text-decoration: none;
+}
+
 .img_ {
   width: 150px;
   height: 150px;
@@ -43,7 +64,7 @@ hr {
 
 .container {
   padding: 5% 0;
-  background: #ffffff;
+  background: #f3f1ea;
   box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -60,20 +81,16 @@ hr {
 
 .menu-item a {
   font-size: 30px;
-  color: #ffffff;
+  color: #f3f1ea;
 }
 
 .menu-item a:hover {
-  color: #75d3d7;
+  color: #ffb335;
 }
 
 .bg-dark_ {
-  background: #5a6b72;
+  background: #2e383d;
 }
-/* 
-.spacing_ {
-  letter-spacing: 0.04rem;
-} */
 
 .block_ {
   width: 30px;
@@ -84,13 +101,13 @@ hr {
   background: #ffffff;
   border-radius: 4px;
   text-align: center;
-  color: #000000;
+  color: #2e383d;
   margin: 0 auto;
   transition: 0.3s;
 }
 
 .block_:hover {
-  background-color: #75d3d7;
+  background-color: #005867;
 }
 
 .section_ {
@@ -108,7 +125,7 @@ hr {
 }
 
 .post-header {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f34226;
   padding: 8% 12%;
   position: relative;
 }
@@ -122,7 +139,7 @@ hr {
 }
 .post-header::before {
   border: 12px solid transparent;
-  border-top-color: #eee;
+  border-top-color: #f34226;
   bottom: 0;
   content: "";
   display: block;
@@ -135,10 +152,11 @@ hr {
   font-size: 2.25em;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+  color: #2e383d;
 }
 
 .post-header .post-title {
-  color: #2b3542;
+  color: #2e383d;
   font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
   line-height: 120%;
@@ -148,7 +166,7 @@ hr {
 
 .post-header::after {
   border: 11px solid transparent;
-  border-top-color: #fff;
+  border-top-color: #f3f1ea;
   bottom: 0;
   content: "";
   display: block;
@@ -177,29 +195,32 @@ hr {
   font-size: 1.15rem;
   line-height: 1.8rem;
   margin-bottom: 10px;
-  color: #5a6b72;
+  color: #f34226;
+}
+
+.publications_list_item a {
+  /* font-family: "Arvo", serif; */
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Lobster Two", cursive; */
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .pub_ {
   text-decoration: none;
   font-weight: 400;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #000000;
+  color: #2e383d;
 }
 .acc_ {
   text-decoration: none;
   font-weight: 400;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #000000;
+  color: #2e383d;
 }
 .pre_ {
   text-decoration: none;
   font-weight: 400;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #000000;
+  color: #2e383d;
 }
 
 a.pub_::before {
@@ -207,7 +228,7 @@ a.pub_::before {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background-color: #75d3d7;
+  background-color: #005867;
   display: inline-block;
   margin-bottom: -4px;
   margin-right: 10px;
@@ -217,7 +238,7 @@ a.pre_::before {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background-color: #5a6b72;
+  background-color: #f34226;
   display: inline-block;
   margin-bottom: -4px;
   margin-right: 10px;
@@ -227,26 +248,27 @@ a.acc_::before {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background-color: #000000;
+  background-color: #2e383d;
   display: inline-block;
   margin-bottom: -4px;
   margin-right: 10px;
 }
 
 .pub_:hover {
-  color: #75d3d7;
+  color: #005867;
 }
 .acc_:hover {
-  color: #000000;
+  color: #2e383d;
 }
 .pre_:hover {
-  color: #5a6b72;
+  color: #f34226;
 }
 
 .list_type_none {
   list-style-type: none;
 }
 .box_icon_item {
+  color: #2e383d;
   padding: 0% 12%;
   display: inline-flex;
   /* position: relative; */
@@ -258,44 +280,50 @@ a.acc_::before {
 }
 
 .box_icon_item .pub_ {
-  background: #75d3d7;
+  background: #005867;
 }
 .box_icon_item .pre_ {
-  background: #5a6b72;
+  background: #f34226;
 }
 .box_icon_item .acc_ {
-  background: #000000;
+  background: #2e383d;
 }
 
 .accordion_text_header {
   font-size: 1.15rem;
   text-transform: capitalize;
   letter-spacing: 0.05rem;
-  color: #2b3542;
+  color: #2e383d;
 }
 
 .accordion_text_header:hover {
-  color: #5a6b72;
+  color: #f34226;
   transition: ease-in(1.3s);
 }
 
 .nav-link {
   font-size: 1.35rem;
   font-weight: 400;
-  color: #2b3542;
+  color: #f3f1ea;
 }
 
 .nav-link:hover {
-  color: #000000;
+  color: #ffb335;
 }
 .nav-link:focus {
-  color: #000000;
+  color: #2e383d;
 }
 
 .nav-link::after {
   content: " /";
   display: inline;
-  color: #75d3d7;
+  color: #ffb335;
   font-weight: 700;
   font-size: 1.35rem;
+}
+
+.btn-info_ {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border: 1px solid #2e383d;
 }
